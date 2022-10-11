@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/SAP-samples/btp-setup-automator/main/libs/btpsa-parameters.json",
+    "usecasefile": "usecase.json",
+    "region": "us10",
+    "globalaccount": null,
+    "myemail": null,
+    "loginmethod": "basicAuthentication",
+    "subaccountname": "html5Apps1",
+    "cfspacename": "development",
+    "myusergroups": [
+      {
+        "name": "admins",
+        "members": [
+          "jane.admin@test.com"
+        ]
+      },
+      {
+        "name": "developers",
+        "members": [
+          "tony@stark.com"
+        ]
+      },
+      {
+        "name": "auditors",
+        "members": [
+          "captain@america.com"
+        ]
+      },
+      {
+        "name": "testers",
+        "members": [
+          "hulk@angry.arg"
+        ]
+      }
+    ]
+  }
+  

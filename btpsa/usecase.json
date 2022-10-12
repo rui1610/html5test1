@@ -19,11 +19,7 @@
                 }
             ]
         },
-        {
-            "category": "APPLICATION",
-            "name": "PortalApplication",
-            "plan": "standard"
-        },
+
         {
             "category": "SERVICE",
             "name": "portal",

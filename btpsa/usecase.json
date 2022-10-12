@@ -14,7 +14,8 @@
                 {
                     "name": "Launchpad_Admin",
                     "assignedUserGroupsFromParameterFile": [
-                        "developers", "admins"
+                        "developers",
+                        "admins"
                     ]
                 }
             ]
@@ -27,10 +28,12 @@
                 {
                     "name": "Portal_Admin",
                     "assignedUserGroupsFromParameterFile": [
-                        "developers", "admins"
+                        "developers",
+                        "admins"
                     ]
                 }
-            ]        },
+            ]
+        },
         {
             "category": "APPLICATION",
             "name": "SAPWorkZone",
@@ -39,15 +42,45 @@
                 {
                     "name": "Workzone_Admin",
                     "assignedUserGroupsFromParameterFile": [
-                        "developers", "admins"
+                        "developers",
+                        "admins"
                     ]
-                }
-            ]        },
+                },
+                {
+                    "name": "Workzone_Support_Admin",
+                    "assignedUserGroupsFromParameterFile": [
+                        "developers",
+                        "admins"
+                    ]
+                },
+                {
+                    "name": "Workzone_Page_Content_Admin",
+                    "assignedUserGroupsFromParameterFile": [
+                        "developers",
+                        "admins"
+                    ]
+                },
+                {
+                    "name": "Workzone_End_User",
+                    "assignedUserGroupsFromParameterFile": [
+                        "developers",
+                        "admins"
+                    ]
+                },
+                {
+                    "name": "Workzone_User_Type_public",
+                    "assignedUserGroupsFromParameterFile": [
+                        "developers",
+                        "admins"
+                    ]
+                }                                                                
+            ]
+        },
         {
             "category": "SERVICE",
             "name": "sap-workzone",
             "plan": "standard"
-        },        
+        },
         {
             "category": "SERVICE",
             "name": "portal",

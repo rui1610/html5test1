@@ -25,6 +25,16 @@
             "plan": "standard"
         },
         {
+            "category": "APPLICATION",
+            "name": "SAPWorkZone",
+            "plan": "standard"
+        },
+        {
+            "category": "SERVICE",
+            "name": "sap-workzone",
+            "plan": "standard"
+        },        
+        {
             "category": "SERVICE",
             "name": "portal",
             "plan": "standard"

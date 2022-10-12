@@ -8,7 +8,7 @@
         },
         {
             "category": "APPLICATION",
-            "name": "saplaunchpad",
+            "name": "SAPLaunchpad",
             "plan": "standard",
             "requiredrolecollections": [
                 {

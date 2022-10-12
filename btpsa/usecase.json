@@ -14,7 +14,7 @@
                 {
                     "name": "Launchpad_Admin",
                     "assignedUserGroupsFromParameterFile": [
-                        "developers"
+                        "developers", "admins"
                     ]
                 }
             ]
@@ -22,13 +22,27 @@
         {
             "category": "APPLICATION",
             "name": "PortalApplication",
-            "plan": "standard"
-        },
+            "plan": "standard",
+            "requiredrolecollections": [
+                {
+                    "name": "Portal_Admin",
+                    "assignedUserGroupsFromParameterFile": [
+                        "developers", "admins"
+                    ]
+                }
+            ]        },
         {
             "category": "APPLICATION",
             "name": "SAPWorkZone",
-            "plan": "standard"
-        },
+            "plan": "standard",
+            "requiredrolecollections": [
+                {
+                    "name": "Workzone_Admin",
+                    "assignedUserGroupsFromParameterFile": [
+                        "developers", "admins"
+                    ]
+                }
+            ]        },
         {
             "category": "SERVICE",
             "name": "sap-workzone",
